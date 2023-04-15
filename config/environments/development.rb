@@ -61,8 +61,8 @@ Rails.application.configure do
     address:              'smtp.gmail.com',
     port:                 587,
     domain:               'example.com',
-    user_name:            'testsmpt587@gmail.com',
-    password:             'bophtphmogjhinre',
+    user_name:            'testsmpt587@gmail.com', #Testing purpose we need to move into System variable
+    password:             'bophtphmogjhinre', #Testing purpose we need to move into System variable
     authentication:       'plain',
     enable_starttls_auto: true,
     open_timeout:         5,
